@@ -1,0 +1,104 @@
+a#home, a.home, a#saved, a.saved {
+	color: #3273dc;
+}
+
+.dropdown {
+	display: none;
+}
+
+#hero-title {
+	padding-bottom: 20px;
+	font-size: 36px;
+}
+
+section.section {
+	padding-bottom: 0;
+	min-height: 100%;
+}
+
+div.container {
+	min-height: 100%;
+}
+
+.article-title{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+div#scrape-results, div#saved-results {
+	min-height: 100%;
+	margin-bottom: 200px;
+}
+
+.result-text {
+	float: left;
+	width: 80%;
+	padding-bottom: 30px;
+}
+
+.save-article {
+	float: right;
+	margin-top: 25px;
+}
+
+.result-div {
+	clear: both;
+	margin-bottom: 2%;
+}
+
+.title {
+	color: #3273dc;
+}
+
+.unsave-button {
+	float: left !important;
+}
+.saved-text {
+	float: left;
+	width: 70%;
+	padding-bottom: 2%px;
+}
+
+.comments-button {
+	float: left;
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-bottom: 3%;
+	
+}
+
+.unsave-button {
+	float: right;
+	margin-top: 1%;
+	margin-left: 5%;
+	clear: both;
+}
+
+.saved-div {
+clear: both;
+}
+
+.footer {
+	position: fixed;
+	bottom: 5px;
+	width: 100%;
+	padding: 20px 0 !important;
+}
+
+span.icon {
+	padding-right: 25px;
+	padding-left: 15px;
+}
+
+.is-info {
+	background: linear-gradient(45deg,rgba(8, 80, 120, .8) 20%, rgba(1, 20, 40, 0.8) 75%);
+}
+
+.navbar-item {
+	background: linear-gradient(45deg,rgba(255, 114, 20, 0.8) 20%, rgba(202, 47, 0, 0.8) 75%);
+	color: white !important;
+	font-weight: bold;
+}
+.navbar-end {
+	background: white !important;
+}

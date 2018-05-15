@@ -1,1 +1,1 @@
-# Gizmodo_Lite
+Gizmodo_lite

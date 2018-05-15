@@ -1,0 +1,73 @@
+<nav class="navbar ">
+  <div class="navbar-brand">
+    <div class="navbar-burger burger" data-target="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div id="navMenu" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="home navbar-item" href="/">
+        Home
+      </a>
+      <a class="navbar-item" href="/saved">
+        Saved Articles
+      </a>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item" style="background: white;">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-primary" href="/scrape">
+              <span class="icon">
+                <i class="fa fa-download"></i>
+              </span>
+              <span>Get New Articles</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="hero is-info">
+  <div class="hero-body">
+    <div class="container">
+      <div class="box dropdown is-pulled-right">
+        <ul>
+          <li><a id="home" class="navbar-item" href="/">Home</a></li>
+          <li><a class="navbar-item" href="/saved">Saved Articles</a></li>
+          <li><a class="button is-primary navbar-item" href="/scrape">Get New Articles</a></li>
+        </ul>
+      </div>
+      <h1 id="hero-title" class="title">
+        Gizmodo Lite
+      </h1>
+      <h2 class="subtitle">
+        View and comment on articles from Gizmodo.com without all the fluff
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">The latest posts</h1>
+    <div id="scrape-results"></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Gizmodo Article Scraper</strong> by <a href="https://github.com/fernand0z/Gizmodo_Lite">Fernando Zacarias</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+<script src="/assets/js/index.js"></script>
